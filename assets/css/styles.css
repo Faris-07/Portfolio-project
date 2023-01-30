@@ -1,6 +1,5 @@
 body {
     min-height: 100vh;
-    min-width: 100vw;
     overflow-x: hidden;
     font-family: 'Noto Sans', sans-serif;
     background-color: #fff;
@@ -38,6 +37,7 @@ nav a {
 footer {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
     padding: 10px;
     color: #f7f7f7;
     background-color: #1d1f26;
@@ -93,4 +93,26 @@ footer a {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-  }
+}
+
+.hero-text h1 {
+    font-size: 200%;
+}
+
+.content-heading {
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+    padding: 10px;
+}
+
+.dark {
+    background-color: #1d1f26;
+    color: #f7f7f7;
+}
