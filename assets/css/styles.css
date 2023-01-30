@@ -1,5 +1,6 @@
 body {
     min-height: 100vh;
+    overflow-x: hidden;
     font-family: 'Noto Sans', sans-serif;
     background-color: #fff;
 }
@@ -8,6 +9,10 @@ body {
 
 nav {
     display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
     justify-content: center;
     padding: 10px;
     background-color: #1d1f26;
@@ -31,4 +36,22 @@ nav a {
     color: #f7f7f7;
 }
 
-  
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #f7f7f7;
+    background-color: #1d1f26;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 14px 16px;
+    color: #f7f7f7;
+}
