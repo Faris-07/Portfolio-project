@@ -32,6 +32,11 @@ nav a {
     color: #f7f7f7;
 }
 
+img {
+    border-radius: 50%;
+    height: 150px;
+}
+
 /* Footer */
 
 footer {
@@ -50,6 +55,13 @@ footer a {
     text-decoration: none;
     padding: 14px 16px;
     color: #f7f7f7;
+}
+
+#img-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #hero-container { 
@@ -72,6 +84,12 @@ footer a {
     animation-duration: 5s;
     animation-fill-mode: forwards;
     overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 
 /* Animation for Hero image */
@@ -114,4 +132,8 @@ footer a {
 .dark {
     background-color: #1d1f26;
     color: #f7f7f7;
+}
+
+.active {
+    border-bottom: 3px solid #F58F29;
 }
