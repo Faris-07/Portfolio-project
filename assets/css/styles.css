@@ -65,6 +65,33 @@ footer a {
     height: 150px;
 }
 
+#skill-list {
+    border: 3px solid #f2f0eb;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+
+#skill-1 {
+    background-color: orange;
+}
+
+#skill-2 {
+    background-color: #007acc;
+}
+
+#skill-3 {
+    background-color: #009933;
+}
+
+#skill-4 {
+    background-color: gold;
+}
+
+#skill-5 {
+    background-color: #00758F;
+}
+
 #hero-container { 
     height: 300px;
     width: 100%;
@@ -128,6 +155,12 @@ footer a {
     justify-content: center;
     height: fit-content;
     padding: 10px;
+}
+
+.skill-item {
+    border: 2px solid #1d1f26;
+    padding: 5px;
+    margin: 5px;
 }
 
 .dark {
