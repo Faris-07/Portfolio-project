@@ -137,3 +137,9 @@ footer a {
 .active {
     border-bottom: 3px solid #F58F29;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
