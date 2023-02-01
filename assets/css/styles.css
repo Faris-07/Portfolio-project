@@ -175,9 +175,18 @@ footer a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
 }
 
 .flex-container img {
     width: 100%;
     height: 300px;
+}
+
+.page-heading {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
